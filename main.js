@@ -11,11 +11,10 @@ function setup() {
 
 
 function draw() {
-  // noLoop();
+  //noLoop();
   background(0);
   for (let emitter of emitters) {
-    emitter.emit(5);
-
+    emitter.emit(3);
     emitter.show();
     emitter.update();
   }
